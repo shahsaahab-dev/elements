@@ -123,4 +123,13 @@ hr {
 .footer-bottom p {
     color: #fff;
 }
+
+
+/* Responsive Footer */
+@media screen and (max-width:500px){
+    ul.social {
+    margin-top: 10px;
+    margin-bottom: 31px;
+}
+}
 /* Footer 1 Styles */
