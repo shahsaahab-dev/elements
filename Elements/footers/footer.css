@@ -1,0 +1,126 @@
+/* Styles for All Footers In this File */
+
+@import url('https://fonts.googleapis.com/css?family=Muli:400,,500,600,700,800,900&display=swap');
+body{
+    font-family: poppins;
+}
+
+/* Footer 1 Styles */
+.footer-1{
+    background: #1d2b36;
+    color:#fff;
+    padding:65px 0 0 0 ;
+}
+
+.logo {
+    margin-bottom: 12px;
+}
+.logo img {
+    max-width: 40px;
+}
+
+.logo h3 {display: inline-block;font-size: 20px;}
+
+
+.contact-info p {
+    color: #748494;
+    text-transform: lowercase;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-info h3 {
+    padding: 0px;
+    margin:20px 0px 0px 0px;
+        font-size: 20px;
+}
+
+
+ul.social li {
+    display: inline;
+    padding-right: 10px;
+}
+
+ul.social {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 48px;
+}
+
+ul.social li a {
+    color: #fff;
+}
+
+ul.social li i.fa {
+    border: 1px solid #f8fafc26;
+    height: 30px;
+    width: 32px;
+    text-align: center;
+    line-height: 31px;
+    transition: all .3s ease-in;
+}
+
+ul.social li i.fa:hover {
+    background: #fff;
+    color: #222;
+    transition: all .4s ease-in;
+}
+
+h4.ul-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+ul.footer-links {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.footer-links li {
+    padding-bottom: 8px;
+}
+
+ul.footer-links li {
+    font-size: 14px;
+}
+
+ul.footer-links li a {
+    color: #748493;
+    text-decoration: none;
+}
+
+ul.footer-links li a:hover {
+    color: #fff;
+    transition: all .4s ease-in;
+}
+
+ul.footer-links li a::after {
+    content: "";
+    width: 0px;
+    background: #fff;
+    height: 1px;
+    display: block;
+    transition: all .4s ease-in;
+}
+
+ul.footer-links li:hover > a::after {
+    width: 55px;
+    transition: all .4s ease-in;
+}
+
+p {
+    color: #748493;
+    font-size: 14px;
+}
+
+hr {
+    background: #405260;
+    margin-top: 35px;
+}
+
+.footer-bottom p {
+    color: #fff;
+}
+/* Footer 1 Styles */
