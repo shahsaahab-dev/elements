@@ -12,14 +12,7 @@ body{
     background-image: linear-gradient(#22282d, #132b3e);
 }
 
-/*Dont Copy This CSS*/
-.footer-1{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-/*Dont Copy this CSS*/
+
 
 .logo {
     margin-bottom: 12px;
@@ -142,5 +135,6 @@ hr {
     margin-top: 10px;
     margin-bottom: 31px;
 }
+    
 }
 /* ==========================================Footer 1 End Styles =========================================== */
