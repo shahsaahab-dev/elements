@@ -89,10 +89,12 @@ ul.footer-links li {
 ul.footer-links li a {
     color: #748493;
     text-decoration: none;
+    transition: all .3s ease-in;
 }
 
 ul.footer-links li a:hover {
     color: #fff;
+    
     transition: all .4s ease-in;
 }
 
